@@ -67,13 +67,13 @@ jobs:
         uv run pytest tests/thirdparty/ -v
 
     - name: Upload coverage reports
-      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v4
       with:
         name: coverage-${{ matrix.python-version }}
         path: htmlcov/
 
     - name: Upload coverage to GitHub
-      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v4
       if: matrix.python-version == '3.11'
       with:
         name: coverage-report
@@ -168,7 +168,7 @@ jobs:
         make build-check
 
     - name: Upload build artifacts
-      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v4
       with:
         name: dist
         path: dist/
