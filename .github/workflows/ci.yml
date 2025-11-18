@@ -30,7 +30,7 @@ jobs:
         python-version: ["3.11", "3.12"]
 
     steps:
-    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v4
 
     - name: Install uv
       uses: astral-sh/setup-uv@3259c6206f993105e3a61b142c2d97bf4b9ef83d # v4
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v4
 
     - name: Install uv
       uses: astral-sh/setup-uv@3259c6206f993105e3a61b142c2d97bf4b9ef83d # v4
@@ -143,7 +143,7 @@ jobs:
     needs: [test, test-minimal]
 
     steps:
-    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
+    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v4
 
     - name: Install uv
       uses: astral-sh/setup-uv@3259c6206f993105e3a61b142c2d97bf4b9ef83d # v4
