@@ -2195,7 +2195,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-material"
-version = "9.6.21"
+version = "9.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babel" },
@@ -2210,9 +2210,9 @@ dependencies = [
     { name = "pymdown-extensions" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ff/d5/ab83ca9aa314954b0a9e8849780bdd01866a3cfcb15ffb7e3a61ca06ff0b/mkdocs_material-9.6.21.tar.gz", hash = "sha256:b01aa6d2731322438056f360f0e623d3faae981f8f2d8c68b1b973f4f2657870", size = 4043097, upload-time = "2025-09-30T19:11:27.517Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9c/3b/111b84cd6ff28d9e955b5f799ef217a17bc1684ac346af333e6100e413cb/mkdocs_material-9.7.0.tar.gz", hash = "sha256:602b359844e906ee402b7ed9640340cf8a474420d02d8891451733b6b02314ec", size = 4094546, upload-time = "2025-11-11T08:49:09.73Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cf/4f/98681c2030375fe9b057dbfb9008b68f46c07dddf583f4df09bf8075e37f/mkdocs_material-9.6.21-py3-none-any.whl", hash = "sha256:aa6a5ab6fb4f6d381588ac51da8782a4d3757cb3d1b174f81a2ec126e1f22c92", size = 9203097, upload-time = "2025-09-30T19:11:24.063Z" },
+    { url = "https://files.pythonhosted.org/packages/04/87/eefe8d5e764f4cf50ed91b943f8e8f96b5efd65489d8303b7a36e2e79834/mkdocs_material-9.7.0-py3-none-any.whl", hash = "sha256:da2866ea53601125ff5baa8aa06404c6e07af3c5ce3d5de95e3b52b80b442887", size = 9283770, upload-time = "2025-11-11T08:49:06.26Z" },
 ]
 
 [[package]]
