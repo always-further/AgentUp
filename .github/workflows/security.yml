@@ -50,7 +50,7 @@ jobs:
         uv run bandit -r src/ -f txt
 
     - name: Upload Bandit report
-      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v4
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v4
       if: always()
       with:
         name: bandit-report
@@ -89,7 +89,7 @@ jobs:
         uv run pip-audit --desc || true
 
     - name: Upload dependency report
-      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v4
+      uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v4
       if: always()
       with:
         name: dependency-report
